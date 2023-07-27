@@ -1,2 +1,5 @@
-import {laugh} from './home'
+import {appendImg} from './home'
+
+appendImg()
+
 
