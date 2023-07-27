@@ -17,7 +17,7 @@ nav.appendChild(homeButton)
 nav.appendChild(menuButton)
 nav.appendChild(contactsButton)
 
-
+appendHome()
 // Run modules for other js files on click
 homeButton.addEventListener('click', appendHome)
 menuButton.addEventListener('click', appendMenu)
