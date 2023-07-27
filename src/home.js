@@ -1,6 +1,6 @@
 
 function appendHome(){
-  console.log("hi")
+  document.querySelector('#content').innerHTML = ""
   const container = document.querySelector('#content')
   const image = document.createElement('img')
   const heading = document.createElement('h1')
