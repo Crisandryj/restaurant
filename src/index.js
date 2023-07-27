@@ -2,9 +2,7 @@ import {appendHome} from './home'
 import {appendMenu} from './menu'
 
 // create nav bar for nav buttons
-const body = document.querySelector('body')
-const nav = document.createElement('nav')
-body.appendChild(nav)
+const nav = document.querySelector('nav')
 
 //create home, menu and contact nav buttons
 const homeButton = document.createElement('button')
