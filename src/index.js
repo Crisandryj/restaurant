@@ -1,5 +1,10 @@
-import {appendImg} from './home'
+import {appendHome} from './home'
 
-appendImg()
+const container = document.querySelector('#content')
+const button = document.createElement('button')
+button.textContent = "Main"
+container.appendChild(button)
+
+appendHome()
 
 

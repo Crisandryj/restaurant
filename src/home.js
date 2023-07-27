@@ -1,5 +1,5 @@
 
-function appendImg(){
+function appendHome(){
   console.log("hi")
   const container = document.querySelector('#content')
   const image = document.createElement('img')
@@ -14,5 +14,4 @@ function appendImg(){
 
 
 
-
-export {appendImg}
+export {appendHome}
