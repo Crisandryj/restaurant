@@ -6,7 +6,7 @@ function appendMenu(){
   heading.textContent = "Menu"
   heading.classList.add('head')
   container.appendChild(heading)
-  image.src = "/rest.jpeg"
+  image.src = "/menu.png"
   container.appendChild(image)
 };
 

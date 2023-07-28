@@ -1,5 +1,6 @@
 import {appendHome} from './home'
 import {appendMenu} from './menu'
+import {contactInfo} from './contact'
 
 // create nav bar for nav buttons
 const nav = document.querySelector('nav')
@@ -21,4 +22,5 @@ appendHome()
 // Run modules for other js files on click
 homeButton.addEventListener('click', appendHome)
 menuButton.addEventListener('click', appendMenu)
+contactsButton.addEventListener('click', contactInfo)
 
